@@ -24,21 +24,25 @@
     <div class="container">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbar2SupportedContent">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav" style="">
           <li class="nav-item mx-2">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#"><i class="fa fa-home"></i>&nbsp;Home</a>
           </li>
           <li class="nav-item mx-2" style="">
-            <a class="nav-link" href="#submission">Submission</a>
+            <a class="nav-link" href="#submission"><i class="fa fa-paper-plane"></i>&nbsp;Submission</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#keynotes"><i class="fa fa-video-camera"></i>&nbsp;Keynotes</a>
           </li>
           <li class="nav-item mx-2" style="">
-            <a class="nav-link" href="#schedule">Schedule</a>
+            <a class="nav-link" href="#schedule"><i class="fa fa-calendar"></i>&nbsp; Schedule</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="#speakers">Organizers</a>
+            <a class="nav-link" href="#invited"><i class="fa fa-user fa-fw"></i>Speakers</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="#invited">Invited Speakers</a></li>
+            <a class="nav-link" href="#organizers"><i class="fa fa-user fa-fw"></i>Organizers</a>
+          </li>
         </ul>
         <a class="btn navbar-btn mx-2 text-white btn-outline-light" href="https://cmt3.research.microsoft.com/TCV2020/">CMT</a>
       </div>
@@ -58,97 +62,216 @@
     </div>
   </div>
   <!-- Parallax section -->
-  <div class="py-5 section-parallax" style="background-image: url(&quot;assets/conference/venue.jpg&quot;);">
+  <div class="py-5 section-parallax" style="background-image: url(&quot;assets/conference/venue.jpg&quot;);" id="keynotes">
     <div class="container my-5 p-4 bg-info">
       <div class="row mx-auto">
         <div class="col-md-12 bg-info" style="">
           <h1 class="mb-3">Keynotes</h1>
-          <div class="card">
-            <div class="card-body bg-light">
-              <h5 class="card-title"><b>Opening Keynote: MIT Connection Science</b></h5>
-              <h3 class="card-subtitle my-2 text-dark">Alex Pentland</h3>
-              <p class="card-text">Keywords: fairness, legality</p>
-              <a href="https://1drv.ms/v/s!AhUvWkR06z-_hy5rfhJvBAaflnvq?e=oxhTjd" class="card-link">Talk Video</a>
-              <a href="https://1drv.ms/b/s!AhUvWkR06z-_hzzRwJH6TnsPEwy0?e=egu0wc" class="card-link">PDF</a>
+          <div class="card-body bg-light">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-3" style=""><img class="img-fluid d-block rounded-circle" src="assets/conference/pentland.jpg" width="160" height="160"></div>
+                  <div class="col-md-9" style="">
+                    <div class="col-md-12">
+                      <h5 class="card-title"><b>Opening Keynote: MIT Connection Science</b><br><br>
+                      </h5>
+                      <h3 class="card-subtitle my-2 text-dark"><a href="https://www.media.mit.edu/people/sandy/overview/">Alex Pentland</a><br></h3>
+                      <p class="card-text">Keywords: fairness, legality<br></p>
+                      <a href="https://1drv.ms/v/s!AhUvWkR06z-_hy5rfhJvBAaflnvq?e=oxhTjd" class="card-link">Talk Video</a>&nbsp; &nbsp; &nbsp;&nbsp;<a href="https://1drv.ms/b/s!AhUvWkR06z-_hzzRwJH6TnsPEwy0?e=egu0wc" class="card-link">PDF</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <p class="text-justify"></p>
-          <div class="card-body bg-primary">
-            <h5 class="card-title"><b>Decision-making in Robotics with Vision-in-the-Loop: Best Practices and Open Problems</b></h5>
-            <h3 class="card-subtitle my-2 text-light">Debadeepta Dey</h3>
-            <p class="card-text">Keywords: robotics, UAVs, drones, anytime, neural, network, pipeline, optimization, airsim, simulation</p>
-            <a href="https://1drv.ms/v/s!AhUvWkR06z-_hze0OuEvYgOHa11Q?e=AoBWG0" class="card-link text-dark">Talk Video</a>
-            <a href="https://1drv.ms/b/s!AhUvWkR06z-_h0DSApBQElUHjgYz?e=dFFVD9" class="card-link text-dark">PDF</a>
+          <div class="card-body bg-info">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-3" style=""><img class="img-fluid d-block rounded-circle" src="assets/conference/Dey.jpg" width="160" height="160"></div>
+                  <div class="col-md-9" style="">
+                    <div class="card-body bg-info">
+                      <h5 class="card-title"><b>Decision-making in Robotics with Vision-in-the-Loop: Best Practices and Open Problems</b></h5>
+                      <h3 h3="" class="card-subtitle my-2 text"><a href="https://www.microsoft.com/en-us/research/people/dedey/">Debadeepta Dey</a></h3>
+                      <p class="card-text">Keywords: robotics, UAVs, drones, anytime, neural, network, pipeline, optimization, airsim, simulation</p>
+                      <a href="https://1drv.ms/v/s!AhUvWkR06z-_hze0OuEvYgOHa11Q?e=AoBWG0" class="card-link text-dark">Talk Video</a>
+                      <a href="https://1drv.ms/b/s!AhUvWkR06z-_h0DSApBQElUHjgYz?e=dFFVD9" class="card-link text-dark">PDF</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="text-justify" style=""></p>
+          <div class="card-body bg-light">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-3" style=""><img class="img-fluid d-block rounded-circle" src="assets/conference/Savva.jpg" width="160" height="160"></div>
+                  <div class="col-md-9" style="">
+                    <div class="card-body bg-light">
+                      <h5 class="card-title"><b>Tackling Data Scarcity Through 3D Simulation</b></h5>
+                      <h3 class="card-subtitle my-2 text-dark"><a href="https://msavva.github.io/">Manolis Savva</a></h3>
+                      <p class="card-text">Keywords: trust, data efficient</p>
+                      <a href="https://1drv.ms/v/s!AhUvWkR06z-_hzRtMHtDgHiMg3lp?e=tetEsW" class="card-link">Talk Video</a>
+                      <a href="https://1drv.ms/b/s!AhUvWkR06z-_hzm3wauwBqGi4-7B?e=7dfvgQ" class="card-link">PDF</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="text-justify"></p>
+          <div class="card-body bg-info">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-3" style=""><img class="img-fluid d-block rounded-circle" src="assets/conference/Hassner.jpg" width="160" height="160"></div>
+                  <div class="col-md-9" style="">
+                    <div class="card-body bg-info">
+                      <h5 class="card-title"><b>How Biased is My Dataset? Reasoning About Dataset Bias with Task Transferability</b></h5>
+                      <h3 class="card-subtitle my-2 text-light"><a href="https://talhassner.github.io/home/">Tal Hassner</a></h3>
+                      <p class="card-text">Keywords: bias, fairness</p>
+                      <a href="https://1drv.ms/v/s!AhUvWkR06z-_hzgxCDnJg2UAb0aX?e=hp2seQ" class="card-link text-dark">Talk Video</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <p class="text-justify"></p>
           <div class="card-body bg-light">
-            <h5 class="card-title"><b>Tackling Data Scarcity Through 3D Simulation</b></h5>
-            <h3 class="card-subtitle my-2 text-dark">Manolis Savva</h3>
-            <p class="card-text">Keywords: trust, data efficient</p>
-            <a href="https://1drv.ms/v/s!AhUvWkR06z-_hzRtMHtDgHiMg3lp?e=tetEsW" class="card-link">Talk Video</a>
-            <a href="https://1drv.ms/b/s!AhUvWkR06z-_hzm3wauwBqGi4-7B?e=7dfvgQ" class="card-link">PDF</a>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-3" style=""><img class="img-fluid d-block rounded-circle" src="assets/conference/Theobalt.png" width="160" height="160"></div>
+                  <div class="col-md-9" style="">
+                    <div class="card-body bg-light">
+                      <h5 class="card-title"><b>Synthesis of High-Quality Face Videos</b></h5>
+                      <h3 class="card-subtitle my-2 text-dark"><a href="http://gvv.mpi-inf.mpg.de/">Christian Theobalt</a></h3>
+                      <p class="card-text">Keywords: trust, data efficient</p>
+                      <a href="https://1drv.ms/v/s!AhUvWkR06z-_hzAvjQieZFye_UVJ?e=Mds6wN" class="card-link">Talk Video</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <p class="text-justify"></p>
-          <div class="card-body bg-primary" style="">
-            <h5 class="card-title"><b>How Biased is My Dataset? Reasoning About Dataset Bias with Task Transferability</b></h5>
-            <h3 class="card-subtitle my-2 text-light">Tal Hassner</h3>
-            <p class="card-text">Keywords: bias, fairness</p>
-            <a href="https://1drv.ms/v/s!AhUvWkR06z-_hzgxCDnJg2UAb0aX?e=hp2seQ" class="card-link text-dark">Talk Video</a>
+          <p class="text-justify" style=""></p>
+          <div class="card-body bg-info">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-3" style=""><img class="img-fluid d-block rounded-circle" src="assets/conference/farid.jpg" width="160" height="160"></div>
+                  <div class="col-md-9" style="">
+                    <div class="card-body bg-info">
+                      <h5 class="card-title"><b>Detecting Deep-Fake Videos from Appearance and Behavior</b></h5>
+                      <h3 class="card-subtitle my-2 text-light"><a href="https://farid.berkeley.edu/">Hany Farid</a></h3>
+                      <p class="card-text">Keywords: trust, data efficient</p>
+                      <a href="https://1drv.ms/v/s!AhUvWkR06z-_hy9nYnq0FaNfSxmK?e=Sb1hNi" class="card-link text-dark">Talk Video</a>
+                      <a href="https://1drv.ms/b/s!AhUvWkR06z-_hz2zMBCyh6KDuP9x?e=hFzxos" class="card-link text-dark">PDF</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <p class="text-justify"></p>
           <div class="card-body bg-light">
-            <h5 class="card-title"><b>Synthesis of High-Quality Face Videos</b></h5>
-            <h3 class="card-subtitle my-2 text-dark">Christian Theobalt</h3>
-            <p class="card-text">Keywords: trust, data efficient</p>
-            <a href="https://1drv.ms/v/s!AhUvWkR06z-_hzAvjQieZFye_UVJ?e=Mds6wN" class="card-link">Talk Video</a>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-3" style=""><img class="img-fluid d-block rounded-circle" src="assets/conference/kohli.jpg" width="160" height="160"></div>
+                  <div class="col-md-9" style="">
+                    <div class="card-body bg-light">
+                      <h5 class="card-title"><b>Enabling Safe, Reliable and Trustworthy Artificial Intelligence</b></h5>
+                      <h3 class="card-subtitle my-2 text-dark"><a href="https://sites.google.com/site/pushmeet/">Pushmeet Kohli</a></h3>
+                      <p class="card-text">Keywords: trust, reliablility and safty</p>
+                      <a href="https://1drv.ms/v/s!AhUvWkR06z-_hzF26DvkevdHyH0m?e=MwCqWC" class="card-link text-primary">Talk Video</a>
+                      <a href="https://1drv.ms/b/s!AhUvWkR06z-_hzs3-IJ4njBg65IQ?e=hXGJip" class="card-link">PDF</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <p class="text-justify"></p>
-          <div class="card-body bg-primary" style="">
-            <h5 class="card-title"><b>Detecting Deep-Fake Videos from Appearance and Behavior</b></h5>
-            <h3 class="card-subtitle my-2 text-light">Hany Farid</h3>
-            <p class="card-text">Keywords: trust, data efficient</p>
-            <a href="https://1drv.ms/v/s!AhUvWkR06z-_hy9nYnq0FaNfSxmK?e=Sb1hNi" class="card-link text-dark">Talk Video</a>
-            <a href="https://1drv.ms/b/s!AhUvWkR06z-_hz2zMBCyh6KDuP9x?e=hFzxos" class="card-link text-dark">PDF</a>
+          <div class="card-body bg-info">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-3" style=""><img class="img-fluid d-block rounded-circle" src="assets/conference/Lakkaraju.png" width="160" height="160"></div>
+                  <div class="col-md-9" style="">
+                    <div class="card-body bg-info">
+                      <h5 class="card-title"><b>Understanding the Perils of Black Box Explanations</b></h5>
+                      <h3 class="card-subtitle my-2 text-light"><a href="https://himalakkaraju.github.io/">Hima Lakkaraju</a></h3>
+                      <p class="card-text">Keywords: trust, explainability</p>
+                      <a href="https://1drv.ms/v/s!AhUvWkR06z-_hzLfdapqa42QD2-D?e=PFS0TK" class="card-link text-dark">Talk Video</a>
+                      <a href="https://1drv.ms/b/s!AhUvWkR06z-_hz75EaQLLaMWykqq?e=5CsmCW" class="card-link text-dark">PDF</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body bg-light">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-3" style=""><img class="img-fluid d-block rounded-circle" src="assets/conference/Mojsilovic_.jpg" width="160" height="160"></div>
+                  <div class="col-md-9" style="">
+                    <div class="card-body bg-light">
+                      <h5 class="card-title"><b>Trustworthy AI</b></h5>
+                      <h3 class="card-subtitle my-2 text-dark"><a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-aleksand">Aleksandra (Saška) Mojsilović</a></h3>
+                      <p class="card-text">Keywords: trust, reliablility and safty</p>
+                      <a href="https://1drv.ms/v/s!AhUvWkR06z-_hzO6HiLqid7zQZYG?e=M1BVUv" class="card-link">Talk Video</a>
+                      <a href="https://1drv.ms/b/s!AhUvWkR06z-_hz_CoynNP-yK0gDQ?e=9AIaFG" class="card-link">PDF</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <p class="text-justify"></p>
-          <div class="card-body bg-light" style="">
-            <h5 class="card-title"><b>Enabling Safe, Reliable and Trustworthy Artificial Intelligence</b></h5>
-            <h3 class="card-subtitle my-2 text-dark">Pushmeet Kohli</h3>
-            <p class="card-text">Keywords: trust, reliablility and safty</p>
-            <a href="https://1drv.ms/v/s!AhUvWkR06z-_hzF26DvkevdHyH0m?e=MwCqWC" class="card-link">Talk Video</a>
-            <a href="https://1drv.ms/b/s!AhUvWkR06z-_hzs3-IJ4njBg65IQ?e=hXGJip" class="card-link">PDF</a>
+          <div class="card-body bg-info">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-3" style=""><img class="img-fluid d-block rounded-circle" src="assets/conference/Gebru.png" width="160" height="160"></div>
+                  <div class="col-md-9" style="">
+                    <div class="card-body bg-info">
+                      <h5 class="card-title" style=""><b>Data Ethics</b></h5>
+                      <h3 class="card-subtitle my-2 text-light"><a href="https://ai.stanford.edu/~tgebru/">Timnit Gebru</a></h3>
+                      <p class="card-text">Keywords: trust, explainability</p>
+                      <a href="https://1drv.ms/v/s!AhUvWkR06z-_hzVL3AbpsSndPOjV?e=p8VE7M" class="card-link text-dark">Talk Video</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <p class="text-justify"></p>
-          <div class="card-body bg-primary" style="">
-            <h5 class="card-title"><b>Understanding the Perils of Black Box Explanations</b></h5>
-            <h3 class="card-subtitle my-2 text-light">Hima Lakkaraju</h3>
-            <p class="card-text">Keywords: trust, explainability</p>
-            <a href="https://1drv.ms/v/s!AhUvWkR06z-_hzLfdapqa42QD2-D?e=PFS0TK" class="card-link text-dark">Talk Video</a>
-            <a href="https://1drv.ms/b/s!AhUvWkR06z-_hz75EaQLLaMWykqq?e=5CsmCW" class="card-link text-dark">PDF</a>
+          <div class="card-body bg-light">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-3" style=""><img class="img-fluid d-block rounded-circle" src="assets/conference/Lin.jpg" width="160" height="160"></div>
+                  <div class="col-md-9" style="">
+                    <div class="card-body bg-light">
+                      <h5 class="card-title"><b>Learning with Less (More) Data</b></h5>
+                      <h3 class="card-subtitle my-2 text-dark"><a href="https://vision.cornell.edu/se3/people/tsung-yi-lin/">Tsung-Yi Lin</a></h3>
+                      <p class="card-text">Keywords: data efficient, trust</p>
+                      <a href="lin: https://1drv.ms/v/s!AhUvWkR06z-_hzb7LGvHDv6Ctmqv?e=4zEhnr" class="card-link text-primary">Talk Video</a>
+                      <a href="https://1drv.ms/b/s!AhUvWkR06z-_hzr2TGvFf0mYLF7p?e=ejvlSP" class="card-link">PDF</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <p class="text-justify"></p>
-          <div class="card-body bg-light" style="">
-            <h5 class="card-title"><b>Trustworthy AI</b></h5>
-            <h3 class="card-subtitle my-2 text-dark">Aleksandra (Saška) Mojsilović</h3>
-            <p class="card-text">Keywords: trust, reliablility and safty</p>
-            <a href="https://1drv.ms/v/s!AhUvWkR06z-_hzO6HiLqid7zQZYG?e=M1BVUv" class="card-link">Talk Video</a>
-            <a href="https://1drv.ms/b/s!AhUvWkR06z-_hz_CoynNP-yK0gDQ?e=9AIaFG" class="card-link">PDF</a>
-          </div>
-          <p class="text-justify"></p>
-          <div class="card-body bg-primary" style="">
-            <h5 class="card-title"><b>Data Ethics</b></h5>
-            <h3 class="card-subtitle my-2 text-light">Timnit Gebru</h3>
-            <p class="card-text">Keywords: trust, explainability</p>
-            <a href="https://1drv.ms/v/s!AhUvWkR06z-_hzVL3AbpsSndPOjV?e=p8VE7M" class="card-link text-dark">Talk Video</a>
-          </div>
-          <p class="text-justify"></p>
-          <div class="card-body bg-light" style="">
-            <h5 class="card-title"><b>Learning with Less (More) Data</b></h5>
-            <h3 class="card-subtitle my-2 text-dark">Tsung-Yi Lin</h3>
-            <p class="card-text">Keywords: data efficient, trust</p>
-            <a href="lin: https://1drv.ms/v/s!AhUvWkR06z-_hzb7LGvHDv6Ctmqv?e=4zEhnr" class="card-link">Talk Video</a>
-            <a href="https://1drv.ms/b/s!AhUvWkR06z-_hzr2TGvFf0mYLF7p?e=ejvlSP" class="card-link">PDF</a>
-          </div>
         </div>
       </div>
     </div>
@@ -252,7 +375,7 @@
           <h2 class="mb-3 text-left"><br><b>Submission Instructions</b></h2>
           <p class="lead">
           </p>
-          <p class="text-justify" style="">SUBMISSION INSTRUCTIONS We solicit submissions of technical papers (5 to 8 pages). Please <b>submit </b>at the <a href="https://cmt3.research.microsoft.com/TCV2020/">FA.DE.TR.CV@CVPR2020 CMT web site</a>&nbsp;<br><br>Submitted technical papers must follow the CVPR paper format and guidelines (<a href="http://cvpr2020.thecvf.com/submission/main-conference/author-guidelines">see CVPR2020 Author Guidelines</a>). All accepted submissions must be presented by one of the authors.&nbsp;<br><br>Submission deadline for technical papers is <b>April 3 2020 11.59pm Pacific Time</b> &nbsp;<br><br>We invite submissions of original work. Accepted work will be presented as either an oral or a poster presentation. The review will be a <b>double-blind</b>.&nbsp;<br></p>
+          <p class="text-justify" style="">SUBMISSION INSTRUCTIONS We solicit submissions of technical papers (5 to 8 pages). Please <b>submit </b>at the<br><a href="https://cmt3.research.microsoft.com/TCV2020/">FA.DE.TR.CV@CVPR2020 CMT web site</a>&nbsp;<br><br>Submitted technical papers must follow the CVPR paper format and guidelines (<a href="http://cvpr2020.thecvf.com/submission/main-conference/author-guidelines">see CVPR2020 Author Guidelines</a>). All accepted submissions must be presented by one of the authors.&nbsp;<br><br>Submission deadline for technical papers is <b>April 3 2020 11.59pm Pacific Time</b> &nbsp;<br><br>We invite submissions of original work. Accepted work will be presented as either an oral or a poster presentation. The review will be a <b>double-blind</b>.&nbsp;<br></p>
           <h2 class="display-5 text-left"><br><b>Topics</b></h2>
         </div>
       </div>
@@ -296,122 +419,6 @@
       </div>
     </div>
   </div>
-  <div class="py-5 bg-light" id="speakers">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <h1>Organizers</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-6 col-lg-3">
-          <a href="#">
-            <img src="assets/conference/Nalini.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
-            <h3 class="mb-0"><b>Nalini Ratha</b></h3>
-            <p class="text-muted">IBM Research</p>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3" style="">
-          <a href="#">
-            <img src="assets/conference/Mayank.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
-            <h3 class="mb-0"><b>Mayank Vatsa</b></h3>
-            <p class="text-muted">IIT Jodhpur</p>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="#">
-            <img src="assets/conference/Richa.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
-            <h3 class="mb-0"><b>Richa Singh</b></h3>
-            <p class="text-muted">IIT Jodhpur</p>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="#">
-            <img src="assets/conference/Kush.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
-            <h3 class="mb-0"><b>Kush Varshney</b></h3>
-            <p class="text-muted">IBM Research</p>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="#">
-            <img src="assets/conference/Adriana.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
-            <h3 class="mb-0"><b>Adriana Kovashka</b></h3>
-            <p class="text-muted">University of Pittsburgh</p>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="#">
-            <img src="assets/conference/Karthik.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
-            <h3 class="mb-0"><b>Karthik Nandakkumar</b></h3>
-            <p class="text-muted">IBM Research</p>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="#">
-            <img src="assets/conference/Srikrishna.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
-            <h3 class="mb-0"><b>Srikrishna Karanam</b></h3>
-            <p class="text-muted">United Imaging Intelligence</p>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="#">
-            <img src="assets/conference/Sharath.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
-            <h3 class="mb-0"><b>Sharath Pankanti</b></h3>
-            <p class="text-muted">IBM Research</p>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="#">
-            <img src="assets/conference/Ziyan.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
-            <h3 class="mb-0"><b>Ziyan Wu</b></h3>
-            <p class="text-muted">United Imaging Intelligence</p>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="#">
-            <img src="assets/conference/Zeynep.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
-            <h3 class="mb-0"><b>Zeynep Akata</b></h3>
-            <p class="text-muted">University of Tübingen</p>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="#">
-            <img src="assets/conference/Vishal.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
-            <h3 class="mb-0"><b>Vishal Patel</b></h3>
-            <p class="text-muted">Johns Hopkins University</p>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="#">
-            <img src="assets/conference/Rama.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
-            <h3 class="mb-0"><b>Rama Chellappa</b></h3>
-            <p class="text-muted">University of Maryland</p>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="#">
-            <img src="assets/conference/Michele.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
-            <h3 class="mb-0"><b>Michele Merler</b></h3>
-            <p class="text-muted">IBM Research</p>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="#">
-            <img src="assets/conference/Rogerio.png" class="center-block my-3 rounded-circle img-fluid" width="300">
-            <h3 class="mb-0"><b>Rogerio Feris</b></h3>
-            <p class="text-muted">IBM Research</p>
-          </a>
-        </div>
-        <div class="col-6 col-lg-3">
-          <a href="#">
-            <img src="assets/conference/Kuan-Chuan.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
-            <h3 class="mb-0"><b>Kuan-Chuan Peng</b></h3>
-            <p class="text-muted">Mitsubishi Electric Research Laboratorie</p>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
   <div class="py-5 bg-dark" id="invited">
     <div class="container-fluid">
       <div class="row">
@@ -421,91 +428,91 @@
       </div>
       <div class="row">
         <div class="col-6 col-lg-3">
-          <a href="#">
+          <a href="http://gvv.mpi-inf.mpg.de/">
             <img src="assets/conference/Theobalt.png" class="center-block my-3 rounded-circle img-fluid" width="300" height="300">
             <h3 class="mb-0"><b>Christian Theobalt</b></h3>
             <p class="text-muted">MPII Saarbrücken</p>
           </a>
         </div>
         <div class="col-6 col-lg-3" style="">
-          <a href="#">
+          <a href="https://ai.stanford.edu/~tgebru/">
             <img src="assets/conference/Gebru.png" class="center-block my-3 rounded-circle img-fluid" width="300">
             <h3 class="mb-0"><b>Timnit Gebru</b></h3>
             <p class="text-muted">Google</p>
           </a>
         </div>
         <div class="col-6 col-lg-3">
-          <a href="#">
+          <a href="https://himalakkaraju.github.io/">
             <img src="assets/conference/Lakkaraju.png" class="center-block my-3 rounded-circle img-fluid" width="300">
             <h3 class="mb-0"><b>Hima Lakkaraju</b></h3>
             <p class="text-muted">Harvard University</p>
           </a>
         </div>
         <div class="col-6 col-lg-3">
-          <a href="#">
+          <a href="https://sites.google.com/site/pushmeet/">
             <img src="assets/conference/kohli.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
             <h3 class="mb-0"><b>Pushmeet Kohli</b></h3>
             <p class="text-muted">DeepMind</p>
           </a>
         </div>
         <div class="col-6 col-lg-3">
-          <a href="#">
+          <a href="https://www.media.mit.edu/people/sandy/overview/">
             <img src="assets/conference/pentland.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
             <h3 class="mb-0"><b>Alex Pentland</b></h3>
             <p class="text-muted">MIT</p>
           </a>
         </div>
         <div class="col-6 col-lg-3">
-          <a href="#">
+          <a href="https://farid.berkeley.edu/">
             <img src="assets/conference/farid.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
             <h3 class="mb-0"><b>Hany Farid</b></h3>
             <p class="text-muted">University of California, Berkeley</p>
           </a>
         </div>
         <div class="col-6 col-lg-3">
-          <a href="#">
+          <a href="https://vision.cornell.edu/se3/people/tsung-yi-lin/">
             <img src="assets/conference/Lin.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
             <h3 class="mb-0"><b>Tsung-Yi Lin</b></h3>
             <p class="text-muted">Google Brain</p>
           </a>
         </div>
         <div class="col-6 col-lg-3">
-          <a href="#">
+          <a href="https://www.yf.io/">
             <img src="assets/conference/Yu.png" class="center-block my-3 rounded-circle img-fluid" width="300">
             <h3 class="mb-0"><b>Fisher Yu</b></h3>
             <p class="text-muted">University of California, Berkeley</p>
           </a>
         </div>
         <div class="col-6 col-lg-3">
-          <a href="#">
+          <a href="https://www.microsoft.com/en-us/research/people/dedey/">
             <img src="assets/conference/Dey.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
             <h3 class="mb-0"><b>Debadeepta Dey</b></h3>
             <p class="text-muted">Microsoft Research</p>
           </a>
         </div>
         <div class="col-6 col-lg-3">
-          <a href="#">
+          <a href="https://msavva.github.io/">
             <img src="assets/conference/Savva.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
             <h3 class="mb-0">Manolis Savva</h3>
             <p class="text-muted">Simon Fraser University</p>
           </a>
         </div>
         <div class="col-6 col-lg-3">
-          <a href="#">
+          <a href="https://www.niessnerlab.org/members/matthias_niessner/profile.html">
             <img src="assets/conference/Niesser.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
             <h3 class="mb-0">Matthias Nießner</h3>
             <p class="text-muted">Technical University of Munich</p>
           </a>
         </div>
         <div class="col-6 col-lg-3">
-          <a href="#">
-            <img src="assets/conference/Mojsilovic.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+          <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-aleksand">
+            <img src="assets/conference/Mojsilovic_.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
             <h3 class="mb-0" style="">Aleksandra (Saška) Mojsilović</h3>
             <p class="text-muted">IBM Research</p>
           </a>
         </div>
         <div class="col-6 col-lg-3">
-          <a href="#">
+          <a href="https://talhassner.github.io/home/">
             <img src="assets/conference/Hassner.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
             <h3 class="mb-0">Tal Hassner</h3>
             <p class="text-muted">Facebook AI</p>
@@ -523,6 +530,122 @@
       </div>
     </div>
   </div>
+  <div class="py-5 bg-light" id="organizers">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Organizers</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-lg-3">
+          <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-ratha">
+            <img src="assets/conference/Nalini.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Nalini Ratha</b></h3>
+            <p class="text-muted">IBM Research</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3" style="">
+          <a href="http://iab-rubric.org/">
+            <img src="assets/conference/Mayank.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Mayank Vatsa</b></h3>
+            <p class="text-muted">IIT Jodhpur</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="http://iab-rubric.org/">
+            <img src="assets/conference/Richa.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Richa Singh</b></h3>
+            <p class="text-muted">IIT Jodhpur</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="http://krvarshney.github.io/">
+            <img src="assets/conference/Kush.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Kush Varshney</b></h3>
+            <p class="text-muted">IBM Research</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://people.cs.pitt.edu/~kovashka/">
+            <img src="assets/conference/Adriana.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Adriana Kovashka</b></h3>
+            <p class="text-muted">University of Pittsburgh</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://researcher.watson.ibm.com/researcher/view.php?person=sg-nkarthik">
+            <img src="assets/conference/Karthik.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Karthik Nandakkumar</b></h3>
+            <p class="text-muted">IBM Research</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://karanams.github.io/">
+            <img src="assets/conference/Srikrishna.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Srikrishna Karanam</b></h3>
+            <p class="text-muted">United Imaging Intelligence</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-sharat">
+            <img src="assets/conference/Sharath.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Sharath Pankanti</b></h3>
+            <p class="text-muted">IBM Research</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="http://wuziyan.com/">
+            <img src="assets/conference/Ziyan.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Ziyan Wu</b></h3>
+            <p class="text-muted">United Imaging Intelligence</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://eml-unitue.de/people/zeynep-akata">
+            <img src="assets/conference/Zeynep.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Zeynep Akata</b></h3>
+            <p class="text-muted">University of Tübingen</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://engineering.jhu.edu/vpatel36/">
+            <img src="assets/conference/Vishal.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Vishal Patel</b></h3>
+            <p class="text-muted">Johns Hopkins University</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="http://users.umiacs.umd.edu/~rama/">
+            <img src="assets/conference/Rama.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Rama Chellappa</b></h3>
+            <p class="text-muted">University of Maryland</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://www.michelemerler.com/">
+            <img src="assets/conference/Michele.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Michele Merler</b></h3>
+            <p class="text-muted">IBM Research</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="http://rogerioferis.com/">
+            <img src="assets/conference/Rogerio.png" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Rogerio Feris</b></h3>
+            <p class="text-muted">IBM Research</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://www.merl.com/people/kpeng">
+            <img src="assets/conference/Kuan-Chuan.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Kuan-Chuan Peng</b></h3>
+            <p class="text-muted">Mitsubishi Electric Research Laboratorie</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Sponsor logos -->
   <!-- Call to action -->
   <div class="py-5 section-aquamarine" id="register">
@@ -534,13 +657,20 @@
   <footer class="text-md-left text-center p-4 bg-dark text-light">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 text-center">
           <p class="text-muted">© Copyright 2020 WORKSHOP ON FAIR, DATA EFFICIENT AND TRUSTED COMPUTER VISION </p>
         </div>
       </div>
     </div>
   </footer>
   <!-- JavaScript dependencies -->
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"><a href="https://1drv.ms/b/s!AhUvWkR06z-_hzzRwJH6TnsPEwy0?e=egu0wc" class="card-link"></a></div>
+      </div>
+    </div>
+  </div>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
