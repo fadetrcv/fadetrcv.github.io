@@ -31,6 +31,12 @@
           <li class="nav-item mx-2" style="">
             <a class="nav-link" href="#submission"><i class="fa fa-paper-plane"></i>&nbsp;Submission</a>
           </li>
+		  <li class="nav-item mx-2">
+            <a class="nav-link" href="#invited"><i class="fa fa-user fa-fw"></i>Speakers</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#organizers"><i class="fa fa-user fa-fw"></i>Organizers</a>
+          </li>
         </ul>
         <a class="btn navbar-btn mx-2 text-white btn-outline-light" href="https://cmt3.research.microsoft.com/TCV2021/">CMT</a>
       </div>
@@ -52,7 +58,7 @@
     <div class="container my-5 bg-light p-4">
       <div class="row mx-auto">
         <div class="col-md-12">
-          <h1 class="mb-3">Call for Paper</h1>
+          <h1 class="mb-3">About the Workshop</h1>
           <p class="text-justify">In every walk of life, computer vision and AI systems are playing a significant and increasing role. They are being employed for making mundane day to day decisions such as healthy food choices and dress choices from the wardrobe to match the occasion of the day as well as mission-critical and life-changing decisions such as diagnosis of diseases, detection of financial frauds, and selecting new employees. Many upcoming applications such as autonomous driving to automated cancer treatment recommendations has everyone worrying about the level of trust associated with vision systems today. The concerns are genuine as many weaker sides of modern vision systems have been exposed through adversarial attacks, bias, and lack of explainability in the current rapidly evolving vision systems. While these vision systems are reaping the advantage of the novel learning methods, they exhibit brittleness to minor changes in the input data and lack the capability to explain its decisions to a human. Furthermore, they are unable to address the bias in their training data and are often highly opaque in terms of revealing the lineage of the system and how they were trained and tested. It has been conjectured that the current use of AI is based on only about 20% of the data the world has access to. Rest 80% of the data that can help AI systems is not available because of regulations and compliance requirements around security and privacy. The present AI systems haven’t demonstrated the ability to learn without compromising on the privacy and security of data. Nor can they even assign appropriate credit to the data sources.&nbsp;<br><br>With the ever increasing appetite for data in machine learning, we need to face the reality that for many applications, sufficient data may not be available. Even if raw data is plenty, quality labeled data may be scarce, and if it is not, then relevant labeled data for a particular objective function may not be sufficient. The latter is often the case in tail end of the distribution problems, such as recognizing in autonomous driving that a baby stroller is rolling on the street. The event is rare in training and testing data, but certainly highly critical for the objective function of personal and property damage. Even the performance evaluation of such a situation is challenging. One may stage experiments geared towards particular situations, but this is not a guarantee that the staging conforms to the natural distribution of events, and even if, then there are many tail ends in high dimensional distributions, that are by their nature hard to enumerate manually.&nbsp;<br><br>Many publicly available computer vision datasets are responsible for great progress in visual recognition and analytics. These datasets serve as source of large amounts of training data as well as assessing performance of state-of-the-art competing algorithms. Performance saturation on such datasets has led the community to believe many general visual recognition problems to be close to be solved, with various commercial offerings stemming from models trained on such data. However, such datasets present significant biases in terms of both categories and image quality, thus creating a significant gap between their distribution and the data coming from the real world. For example, many of the publicly available datasets underrepresent certain ethnic and cultural communities and over represent others. Many variations have been observed to impact visual recognition including resolution, illumination and simple cultural variations of similar objects. Systems based on a skewed training dataset are bound to produce skewed results. This mismatch has been evidenced in the significant drop in performance of state of the art models trained on those datasets when applied to images for example of particular gender and/or ethnicity groups for face analytics. It has been shown that such biases may have serious impacts on performance in challenging situations where the outcome is critical either for the subject or to a community. Often research evaluations are quite unaware of those issues, while focusing on saturating the performance on skewed datasets.&nbsp;<br><br>In order to progress toward fair visual recognition truly in the wild, we propose this workshop to understand the underlying issues in bias free and culturally diverse visual recognition.&nbsp;<br><br>Under such circumstances, our workshop on Fair, Data Efficient and Trusted Computer Vision will address four critical issues in enhancing user trust in AI and computer vision systems namely: (i) Fairness, (ii) Data Efficient learning and critical aspects of trust including (ii) explainability, (iii) mitigating adversarial attacks robustly and (iv) improve privacy and security in model building with right level of credit assignment to the data sources along with transparency in lineage.</p>
         </div>
       </div>
@@ -114,18 +120,175 @@
   <!-- Parallax section -->
   <!-- Speakers -->
   <!-- Schedule -->
-  <div class="py-5 section-parallax" style="background-image: url(&quot;assets/conference/venue.jpg&quot;);">
-    <div class="container my-5 bg-light p-4">
-      <div class="row mx-auto">
+  <div class="py-5 bg-dark" id="invited">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12" style="">
+          <h1>Invited Speakers</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-lg-3">
+          <a href="https://scholar.google.com/citations?user=9XiIwDQAAAAJ&amp;hl=en">
+            <img src="assets/conference/aggarwal.jpg" class="center-block my-3 rounded-circle img-fluid" width="300" height="300">
+            <h3 class="mb-0"><b>Gaurav Aggarwal</b></h3>
+            <p class="text-muted">Google</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3" style="">
+          <a href="https://cs-people.bu.edu/sbargal/">
+            <img src="assets/conference/bargal.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Sarah Adel Bargal</b></h3>
+            <p class="text-muted">Boston University</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://jankautz.com/">
+            <img src="assets/conference/kautz.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Jan Kautz</b></h3>
+            <p class="text-muted">NVIDIA</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="http://pavis.iit.it/">
+            <img src="assets/conference/murino.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Vittorio Murino</b></h3>
+            <p class="text-muted">Istituto Italiano di Tecnologia</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="http://www.vision.caltech.edu/Perona.html">
+            <img src="assets/conference/perona.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Pietro Perona</b></h3>
+            <p class="text-muted">Caltech</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://www.holgerroth.com/">
+            <img src="assets/conference/roth.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Holger Roth</b></h3>
+            <p class="text-muted">NVIDIA</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://www.researchgate.net/profile/Maneesh-Singh-8">
+            <img src="assets/conference/singh.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Maneesh Singh</b></h3>
+            <p class="text-muted">Verisk Analytics</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://starkcontrast.co/">
+            <img src="assets/conference/stark.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Luke Stark</b></h3>
+            <p class="text-muted">University of Western Ontario</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://teamcore.seas.harvard.edu/tambe">
+            <img src="assets/conference/tambe.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Milind Tambe</b></h3>
+            <p class="text-muted">Harvard University</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="http://brooke-welles.squarespace.com/">
+            <img src="assets/conference/welles.jpeg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0">Brooke Foucault Welles</h3>
+            <p class="text-muted">Simon Fraser University</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://www.niessnerlab.org/members/matthias_niessner/profile.html">
+            <img src="assets/conference/Niesser.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0">Matthias Nießner</h3>
+            <p class="text-muted">Technical University of Munich</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="#"></a>
+        </div>
+        <div class="col-6 col-lg-3"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 bg-light" id="organizers">
+    <div class="container-fluid">
+      <div class="row">
         <div class="col-md-12">
-          <h1 class="mb-3">Keynote Speakers</h1>
-          <p class="text-justify">
-          </p>
-          <li class="text-left"><a href="https://niessnerlab.org/members/matthias_niessner/profile.html">Matthias Nießner<br></a><br></li>
-          <li class="text-left"><a href="https://www.holgerroth.com/">Holger Roth<br></a><br></li>
-          <li class="text-left"><a href="https://camd.northeastern.edu/faculty/brooke-foucault-welles/">Brooke Foucault Welles<br></a><br></li>
-          <li class="text-left"><a href="http://cs-people.bu.edu/sbargal/">Sarah Adel Bargal<br></a><br></li>
-          <li class="text-left"><a href="http://profs.sci.univr.it/~swan/">Vittorio Murino<br></a><br></li>
+          <h1>Organizers</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-lg-3">
+          <a href="http://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ratha-nalini.html">
+            <img src="assets/conference/Nalini.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Nalini Ratha</b></h3>
+            <p class="text-muted">University of Buffalo</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://karanams.github.io/">
+            <img src="assets/conference/Srikrishna.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Srikrishna Karanam</b></h3>
+            <p class="text-muted">United Imaging Intelligence</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="http://wuziyan.com/">
+            <img src="assets/conference/Ziyan.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Ziyan Wu</b></h3>
+            <p class="text-muted">United Imaging Intelligence</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3" style="">
+          <a href="http://iab-rubric.org/">
+            <img src="assets/conference/Mayank.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Mayank Vatsa</b></h3>
+            <p class="text-muted">IIT Jodhpur</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="http://iab-rubric.org/">
+            <img src="assets/conference/Richa.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Richa Singh</b></h3>
+            <p class="text-muted">IIT Jodhpur</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://www.merl.com/people/kpeng">
+            <img src="assets/conference/Kuan-Chuan.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Kuan-Chuan Peng</b></h3>
+            <p class="text-muted">Mitsubishi Electric Research Laboratorie</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://www.michelemerler.com/">
+            <img src="assets/conference/Michele.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Michele Merler</b></h3>
+            <p class="text-muted">IBM Research</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="http://krvarshney.github.io/">
+            <img src="assets/conference/Kush.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Kush Varshney</b></h3>
+            <p class="text-muted">IBM Research</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://people.cs.pitt.edu/~kovashka/">
+            <img src="assets/conference/Adriana.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Adriana Kovashka</b></h3>
+            <p class="text-muted">University of Pittsburgh</p>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3">
+          <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-sharat">
+            <img src="assets/conference/Sharath.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+            <h3 class="mb-0"><b>Sharath Pankanti</b></h3>
+            <p class="text-muted">IBM Research</p>
+          </a>
         </div>
       </div>
     </div>
@@ -153,6 +316,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <!-- Script: Smooth scrolling between anchors in the same page -->
   <script src="js/smooth-scroll.js"></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
 
 </html>
