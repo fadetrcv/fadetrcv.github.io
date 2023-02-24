@@ -1,21 +1,231 @@
 <!DOCTYPE html>
-<style>
-h1 {text-align: center;}
-a:link {color: #0000EE;text-decoration:none;}
-a:visited {color: #686F9B;text-decoration:none;}
-.maintext {font-size: xx-large;font-family: Arial, Helvetica, sans-serif;color: #000000;margin-left: 40px;margin-top: 3cm;text-align: center;}
-.footer {position: fixed;left: 0;bottom: 0;width: 100%;background-color: white;color: lightgray;text-align: center;}
-</style>
 <html>
-<body>
 
-<h1>The Fourth Workshop on Fair, Data-efficient, and Trusted Computer Vision</h1>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
+  <title>WORKSHOP ON FAIR, DATA EFFICIENT AND TRUSTED COMPUTER VISION</title>
+  <meta name="description" content="WORKSHOP ON FAIR, DATA EFFICIENT AND TRUSTED COMPUTER VISION.">
+  <meta name="keywords" content="FAIR, DATA EFFICIENT AND TRUSTED COMPUTER VISION">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="aquamarine.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <!-- Script: Make my navbar transparent when the document is scrolled to top -->
+  <script src="js/navbar-ontop.js"></script>
+  <!-- Script: Animated entrance -->
+  <script src="js/animate-in.js"></script>
+</head>
 
-<p>Detailed information including a call for papers will be available soon.</p>
-
-<div class="footer">
-  <p>© Copyright 2023 FIRST, SECOND, THIRD, AND FOURTH WORKSHOP ON FAIR, DATA-EFFICIENT AND TRUSTED COMPUTER VISION</p>
-</div>
-
+<body class="text-center">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbar2SupportedContent">
+        <ul class="navbar-nav" style="">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>&nbsp;Home</a>
+          </li>
+          <li class="nav-item mx-2" style="">
+            <a class="nav-link" href="#submission"><i class="fa fa-paper-plane"></i>&nbsp;Submission</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#organizers"><i class="fa fa-fw fa-users"></i>Organizers</a>
+          </li>
+        </ul>
+        <a class="btn navbar-btn mx-2 text-white btn-outline-light" href="https://cmt3.research.microsoft.com/TCV2023/">CMT</a>
+      </div>
+    </div>
+  </nav>
+  <div class="d-flex align-items-center section-aquamarine py-5 cover" style="background-image: url(&quot;assets/conference/cover.jpg&quot;); box-shadow: black 0px 0px 4px;">
+    <div class="container">
+      <div class="row">
+        <div class="text-white mt-5 col-lg-12">
+          <h1 class="text-left">2023 IEEE CVPR WORKSHOP ON</h1>
+          <h3 class="text-left display-4" style="">FAIR, DATA EFFICIENT AND TRUSTED COMPUTER VISION</h3>
+          <p class="" style="">in conjunction with IEEE <a href="http://cvpr2023.thecvf.com/">CVPR 2023</a><br>June 18, 2023</p>
+          <i class="d-block fa fa-angle-down pt-5 fa-3x" style=""></i>
+        </div>
+      </div>
+    </div>
+  </div>
+<b><b>
+      <b><b>
+          <div class="py-5 section-parallax" style="background-image: url(&quot;assets/conference/venue.jpg&quot;);">
+            <div class="container my-5 bg-light p-4">
+              <div class="row mx-auto">
+                <div class="col-md-12">
+                  <h1 class="mb-3">About the Workshop</h1>
+                  <p class="text-justify"><span style="font-weight: normal;">In every walk of life, computer vision and AI systems are playing a significant and increasing role. They are being employed for making mundane day to day decisions such as healthy food choices and dress choices from the wardrobe to match the occasion of the day as well as mission-critical and life-changing decisions such as diagnosis of diseases, detection of financial frauds, and selecting new employees. Many upcoming applications such as autonomous driving to automated cancer treatment recommendations has everyone worrying about the level of trust associated with vision systems today. The concerns are genuine as many weaker sides of modern vision systems have been exposed through adversarial attacks, bias, and lack of explainability in the current rapidly evolving vision systems. While these vision systems are reaping the advantage of the novel learning methods, they exhibit brittleness to minor changes in the input data and lack the capability to explain its decisions to a human. Furthermore, they are unable to address the bias in their training data and are often highly opaque in terms of revealing the lineage of the system and how they were trained and tested. It has been conjectured that the current use of AI is based on only about 20% of the data the world has access to. Rest 80% of the data that can help AI systems is not available because of regulations and compliance requirements around security and privacy. The present AI systems haven’t demonstrated the ability to learn without compromising on the privacy and security of data. Nor can they even assign appropriate credit to the data sources.&nbsp;<br><br>With the ever increasing appetite for data in machine learning, we need to face the reality that for many applications, sufficient data may not be available. Even if raw data is plenty, quality labeled data may be scarce, and if it is not, then relevant labeled data for a particular objective function may not be sufficient. The latter is often the case in tail end of the distribution problems, such as recognizing in autonomous driving that a baby stroller is rolling on the street. The event is rare in training and testing data, but certainly highly critical for the objective function of personal and property damage. Even the performance evaluation of such a situation is challenging. One may stage experiments geared towards particular situations, but this is not a guarantee that the staging conforms to the natural distribution of events, and even if, then there are many tail ends in high dimensional distributions, that are by their nature hard to enumerate manually.&nbsp;<br><br>Many publicly available computer vision datasets are responsible for great progress in visual recognition and analytics. These datasets serve as source of large amounts of training data as well as assessing performance of state-of-the-art competing algorithms. Performance saturation on such datasets has led the community to believe many general visual recognition problems to be close to be solved, with various commercial offerings stemming from models trained on such data. However, such datasets present significant biases in terms of both categories and image quality, thus creating a significant gap between their distribution and the data coming from the real world. For example, many of the publicly available datasets underrepresent certain ethnic and cultural communities and over represent others. Many variations have been observed to impact visual recognition including resolution, illumination and simple cultural variations of similar objects. Systems based on a skewed training dataset are bound to produce skewed results. This mismatch has been evidenced in the significant drop in performance of state of the art models trained on those datasets when applied to images for example of particular gender and/or ethnicity groups for face analytics. It has been shown that such biases may have serious impacts on performance in challenging situations where the outcome is critical either for the subject or to a community. Often research evaluations are quite unaware of those issues, while focusing on saturating the performance on skewed datasets.&nbsp;<br><br>In order to progress toward fair visual recognition truly in the wild, we propose this workshop to understand the underlying issues in bias free and culturally diverse visual recognition.&nbsp;<br><br>Under such circumstances, our workshop on Fair, Data Efficient and Trusted Computer Vision will address four critical issues in enhancing user trust in AI and computer vision systems namely: (i) Fairness, (ii) Data Efficient learning and critical aspects of trust including (ii) explainability, (iii) mitigating adversarial attacks robustly and (iv) improve privacy and security in model building with right level of credit assignment to the data sources along with transparency in lineage.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="py-5 section-parallax" style="background-image: url(&quot;assets/conference/venue.jpg&quot;);" id="submission">&gt; <div class="container my-5 bg-light p-4">
+              <div class="row mx-auto">
+                <div class="col-md-12">
+                  <h1 class="mb-3"><b>Submission</b></h1>
+                  <h2 class="mb-3 text-left"><br><b>Submission Instructions</b></h2>
+                  <p class="lead">
+                  </p>
+                  <p class="text-justify" style=""><span style="font-weight: normal;"> We solicit submissions of technical papers. The accepted papers will be published in CVPR 2023 workshop proceedings and presented at the workshop. Please submit at the <a href="https://cmt3.research.microsoft.com/TCV2023/">FA.DE.TR.CV@CVPR2023 CMT</a> web site.&nbsp;<br><br>Submitted technical papers must follow the CVPR paper format and guidelines (<a href="https://cvpr2023.thecvf.com/Conferences/2023/AuthorGuidelines">see CVPR2023 Author Guidelines</a>). All accepted submissions must be presented by one of the authors.&nbsp;<br><br>Submission deadline: for technical papers is March 18 2023 11:59pm Pacific Time &nbsp;<br>Notification to authors: April 1 2023 11:59pm Pacific Time<br>Camera ready deadline:&nbsp; April 8 2023 11:59pm Pacific Time<br><br>We invite submissions of original work. The review will be a double-blind.&nbsp;</span><br></p>
+                  <h2 class="display-5 text-left"><br><b>Topics</b></h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="text-left">&nbsp; &nbsp; We solicit original research papers covering these areas to be submitted to the workshop:<br></p>
+                  <ul class="">
+                    <li class="text-left">Vision/AI and bias</li>
+                    <li class="text-left">Secure machine learning in vision and AI</li>
+                    <li class="text-left">Vision/AI model security using blockchain</li>
+                    <li class="text-left" style="">Explainability in Vision/AI decisions</li>
+                    <li class="text-left">Analytics in encrypted domain</li>
+                    <li class="text-left">Secure Vision/AI computing and blockchain</li>
+                    <li class="text-left">Vision/AI provenance and lineage</li>
+                    <li class="text-left">Trust in Vision/AI</li>
+                    <li class="text-left">Privacy in Vision/AI</li>
+                    <li class="text-left">Robustness of Vision/AI models</li>
+                    <li class="text-left">Vision/AI forensics</li>
+                    <li class="text-left">Vision/AI models attribution</li>
+                    <li class="text-left">Work that spans across the many dimensions of trust</li>
+                    <li class="text-left">Algorithms and theories for learning computer vision models under bias and scarcity</li>
+                    <li class="text-left">Methods for exploiting prior knowledge to learn models under bias/scarcity</li>
+                    <li class="text-left">Optimization methods designed for learning models from side-channel/alternative/synthetic sources of data</li>
+                    <li class="text-left">Domain adaptation methods to bridge train/test data gap</li>
+                    <li class="text-left">Methods for studying generalization characteristics of vision models trained from alternative data sources</li>
+                    <li class="text-left">Methods of evaluating performance of models under bias/scarcity</li>
+                    <li class="text-left">Domain-specific methods designed for important computer vision applications</li>
+                    <li class="text-left">Performance characterization of vision algorithms and systems under bias and scarcity</li>
+                    <li class="text-left">Continuous re nement of vision models using active/online learning</li>
+                    <li class="text-left">Meta-learning models from various existing task-speci c models</li>
+                    <li class="text-left">Brave new ideas to learn computer vision models under bias and scarcity</li>
+                    <li class="text-left">New algorithms and architectures explicitly designed to reduce bias in visual analytics</li>
+                    <li class="text-left">New techniques to balance/manipulate data to reduce bias in visual analytics</li>
+                    <li class="text-left">New datasets to improve and measure bias/diversity in visual analytics</li>
+                    <li class="text-left">New evaluation protocols to assess and measure bias/diversity in visual analytics</li>
+                    <li class="text-left">Generative methods to reduce bias in visual analytics</li>
+                    <li class="text-left">Evaluations of bias/diversity of state of the art techniques in visual analytics</li>
+                    <li class="text-left">Transfer learning/domain adaptation techniques for more fair visual analytics</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Cover -->
+          <!-- Parallax section -->
+          <!-- Parallax section -->
+          <!-- Speakers -->
+          
+          <!-- Schedule -->
+          <div class="py-5 bg-light" id="organizers">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <h1>Organizers</h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 col-lg-3">
+                  <a href="http://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ratha-nalini.html">
+                    <img src="assets/conference/Nalini.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+                    <h3 class="mb-0"><b>Nalini Ratha</b></h3>
+                    <p class="text-muted">University of Buffalo</p>
+                  </a>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <a href="https://karanams.github.io/">
+                    <img src="assets/conference/Srikrishna.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+                    <h3 class="mb-0"><b>Srikrishna Karanam</b></h3>
+                    <p class="text-muted">Adobe Research</p>
+                  </a>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <a href="http://wuziyan.com/">
+                    <img src="assets/conference/Ziyan.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+                    <h3 class="mb-0"><b>Ziyan Wu</b></h3>
+                    <p class="text-muted">United Imaging Intelligence</p>
+                  </a>
+                </div>
+                <div class="col-6 col-lg-3" style="">
+                  <a href="http://iab-rubric.org/">
+                    <img src="assets/conference/Mayank.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+                    <h3 class="mb-0"><b>Mayank Vatsa</b></h3>
+                    <p class="text-muted">IIT Jodhpur</p>
+                  </a>
+                </div>
+				<div class="col-6 col-lg-3">
+              <a href="http://iab-rubric.org/">
+                <img src="assets/conference/Richa.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+                <h3 class="mb-0"><b>Richa Singh</b></h3>
+                <p class="text-muted">IIT Jodhpur</p>
+              </a>
+            </div>
+                <div class="col-6 col-lg-3">
+                  <a href="https://www.merl.com/people/kpeng">
+                    <img src="assets/conference/Kuan-Chuan.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+                    <h3 class="mb-0"><b>Kuan-Chuan Peng</b></h3>
+                    <p class="text-muted">Mitsubishi Electric Research Laboratories</p>
+                  </a>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <a href="https://www.michelemerler.com/">
+                    <img src="assets/conference/Michele.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+                    <h3 class="mb-0"><b>Michele Merler</b></h3>
+                    <p class="text-muted">IBM Research</p>
+                  </a>
+                </div>
+                <div class="col-6 col-lg-3">
+                  <a href="http://krvarshney.github.io/">
+                    <img src="assets/conference/Kush.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+                    <h3 class="mb-0"><b>Kush Varshney</b></h3>
+                    <p class="text-muted">IBM Research</p>
+                  </a>
+                </div>
+				<div class="col-6 col-lg-3">
+              <a href="https://www.albany.edu/~yy298919/">
+                <img src="assets/conference/yiming.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+                <h3 class="mb-0"><b>Yiming Ying</b></h3>
+                <p class="text-muted">University at Albany</p>
+              </a>
+            </div>
+                <div class="col-6 col-lg-3">
+                  <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-sharat">
+                    <img src="assets/conference/Sharath.jpg" class="center-block my-3 rounded-circle img-fluid" width="300">
+                    <h3 class="mb-0"><b>Sharath Pankanti</b></h3>
+                    <p class="text-muted">Microsoft</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Sponsor logos -->
+          <!-- Call to action -->
+          <div class="py-5 section-aquamarine" id="register" style="">
+            <div class="container">
+              <div class="row"></div>
+            </div>
+          </div>
+          <!-- Footer -->
+          <footer class="text-md-left text-center p-4 bg-dark text-light">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <p class="text-muted">© Copyright 2023 WORKSHOP ON FAIR, DATA EFFICIENT AND TRUSTED COMPUTER VISION </p>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <!-- JavaScript dependencies -->
+          <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+          <!-- Script: Smooth scrolling between anchors in the same page -->
+          <script src="js/smooth-scroll.js"></script>
+        </b></b>
+    </b></b>
 </body>
+
 </html>
